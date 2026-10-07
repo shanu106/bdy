@@ -1,0 +1,21 @@
+
+# Dependencies
+node_modules/
+
+# Build and coverage output
+dist/
+build/
+coverage/
+.next/
+
+# Environment and caches
+.cache/
+.tmp/
+tmp/
+.env
+.env.*
+
+# Operating system and editor files
+.DS_Store
+.idea/
+.vscode/
