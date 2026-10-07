@@ -3,10 +3,10 @@ import { createRoot } from "react-dom/client";
 import "./styles.css";
 
 const memories = [
-  { image: "/images/a.jpeg", label: "My favorite human", fallback: "♡" },
-  { image: "/images/b.jpeg", label: "Chaos & cuddles", fallback: "✿" },
-  { image: "/images/c.jpeg", label: "Group ka sbse bhola insaan", fallback: "★" },
-  { image: "/images/d.jpeg", label: "Supporter ", fallback: "★" },
+  { image: `${import.meta.env.BASE_URL}images/a.jpeg`, label: "My favorite human", fallback: "♡" },
+  { image: `${import.meta.env.BASE_URL}images/b.jpeg`, label: "Chaos & cuddles", fallback: "✿" },
+  { image: `${import.meta.env.BASE_URL}images/c.jpeg`, label: "Group ka sbse bhola insaan", fallback: "★" },
+  { image: `${import.meta.env.BASE_URL}images/d.jpeg`, label: "Supporter ", fallback: "★" },
 ];
 
 function App() {
